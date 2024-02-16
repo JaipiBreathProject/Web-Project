@@ -1,0 +1,46 @@
+:root {
+      --primary: #845ef7;
+      --bg: #f9f9f9;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--bg);
+      margin: 0;
+      transition: all 0.3s ease;
+    }
+
+    .header {
+      background-color: var(--primary);
+      padding: 20px;
+      text-align: center;
+    }
+
+    .logo {
+      width: 70px;
+      margin-right: 10px;
+      vertical-align: middle;
+    }
+
+    strong {
+      color: #FFFFFF;
+      vertical-align: middle;
+    }
+
+    p,
+    h1 {
+      padding: 12px 20px;
+      border-radius: 50px;
+      transition: all 0.2s ease;
+    }
+
+    /* Main Menu */
+    td[align="left"] p {
+      background-color: var(--bg);
+      box-shadow: 5px 5px 10px #ddd;
+    }
+
+    td[align="left"] p:hover {
+      transform: translateY(-2px);
+      box-shadow: 5px 5px 10px #aaa;
+    }
