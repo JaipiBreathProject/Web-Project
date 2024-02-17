@@ -1,5 +1,5 @@
 :root {
-      --primary: #845ef7;
+      --primary: #00a2e9;
       --bg: #f9f9f9;
     }
 
@@ -39,7 +39,7 @@
       transition: all 0.2s ease;
     }
 
-    /* Main Menu */
+    /* Menu */
     td[align="left"] p {
       background-color: var(--bg);
       box-shadow: 5px 5px 10px #ddd;
@@ -48,6 +48,11 @@
     td[align="left"] p:hover {
       transform: translateY(-2px);
       box-shadow: 5px 5px 10px #aaa;
+    }
+    
+    /* Judul & Footer */
+    td[align="center"] {
+      background-color: var(--primary);
     }
     
     /* Gallery */
