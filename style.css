@@ -33,7 +33,7 @@
     }
 
     p,
-    h1 {
+    h1, h3 {
       padding: 12px 20px;
       border-radius: 50px;
       transition: all 0.2s ease;
@@ -48,4 +48,37 @@
     td[align="left"] p:hover {
       transform: translateY(-2px);
       box-shadow: 5px 5px 10px #aaa;
+    }
+    
+    /* Gallery */
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .gallery img {
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 5px 5px 10px #ddd;
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.1);
+    }
+    
+    
+    /* Hubungi Kami */
+    .hubungi {
+      padding: 20px;
+    }
+
+    .map {
+      width: 90%;
+      height: 300px;
+      border-radius: 10px;
+      margin-top: 20px;
     }
